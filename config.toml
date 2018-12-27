@@ -122,7 +122,7 @@ enableGitInfo = false
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  twitter = "waldodiazv"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -198,12 +198,12 @@ enableGitInfo = false
   #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
-    'Book',  # 5
-    'Book section'  # 6
+    'Conference paper',  # 0
+    'Journal article',  # 10
+    'Manuscript',  # 0
+    'Report',  # 0
+    'Book',  # 0
+    'Book section'  # 2
   ]
 
   # Configuration of talk pages.
@@ -263,7 +263,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:waldo.diaz@uss.cl".
+    link = "mailto:waldo.diaz@uss.cl"  # For a direct email link, use "mailto:waldo.diaz@uss.cl".
 
   [[params.social]]
     icon = "twitter"
@@ -276,10 +276,15 @@ enableGitInfo = false
     link = "https://scholar.google.com/citations?user=T-NArGYAAAAJ&hl=en"
 
   [[params.social]]
-    icon = "github"
-    icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    icon = "orcid"
+    icon_pack = "ai"
+    link = ""
 
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = ""
+    
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   # [[params.social]]
@@ -297,7 +302,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Home"
-  url = "#about"
+  url = "http://www.mmfrlab.org"
   weight = 1
 
 [[menu.main]]
