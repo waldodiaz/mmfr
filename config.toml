@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "www.mmfrlab.org"
+baseurl = "http://www.mmfrlab.org"
 
 # Title of your site
 title = "Molecular Microbiology and Food Research Laboratory"
@@ -43,9 +43,9 @@ enableGitInfo = false
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
-  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+  hrefTargetBlank = false  # `true` opens external links in a new tab.
+  fractions = false  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = false  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
   extensions = ["backslashLineBreak"]
 
 [params]
@@ -53,7 +53,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Waldo Díaz-Vásquez"
-  role = "Researcher Professor of Molecular Microbiology"
+  role = "Researcher Professor / Lab PI"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
