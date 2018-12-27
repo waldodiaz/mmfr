@@ -13,7 +13,7 @@ title = "Molecular Microbiology and Food Research Laboratory"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2019"
 
 theme = "academic"
 enableEmoji = true
@@ -57,7 +57,7 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Universidad San Sebastián", url = "http://www.uss.cl" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -71,7 +71,7 @@ enableGitInfo = false
   Otherwise email to book an appointment
   """
   phone = "+562-22606688"
-  skype = "waldo.diaz."
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -99,8 +99,8 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 1
   map_api_key = "AIzaSyBA_JSRUBxEjh6Fe4o9U8bdEQkovyCnqC8"
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "-33.423866"
+  longitude = "-70.602643"
   zoom = 15
 
   # SITE SETUP
