@@ -18,28 +18,31 @@ date_format = "January 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  title = "Postdocral fellow"
+  company = "Universidad de Santiago de Chile"
+  company_url = "http://www.usach.cl"
+  location = "Santiago, Chile"
+  date_start = "2014-01-01"
+  date_end = "2015-12-31"
+  description = """Working as researcher at Molecular microbiologylaboratory."""
 
 [[experience]]
   title = "Professor"
-  company = "University X"
+  company = "Universidad de Santiago de Chile"
+  company_url = "http://www.usach.cl"
+  location = "Santiago, Chile"
+  date_start = "2008-01-01"
+  date_end = "2015-12-31"
+  description = """Working as researcher and courses instructor of Bioqchemistry, Microbiology, Genetic, Molecular microbiology ."""
+
+[[experience]]
+  title = "researcher and Professor"
+  company = "Universidad San Sebastian"
   company_url = ""
   location = "California"
   date_start = "2016-01-01"
   date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
+  description = """Working as researcher at MMFR lab. Proffesor of Food mirobiology and Parasitology"""
 +++
